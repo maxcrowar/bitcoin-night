@@ -4,21 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
     <title>Bitcoin Night</title>
+
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <img src="../img/BitcoinNight.jpeg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="quees.html">Que es?</a></li>
-                <li><a href="">Ediciones anteriores</a></li>
-                <li><a href="quienes.html">Quienes Somos</a></li>
-                <li><a href="quiero.html">Quiero un BN</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/BitcoinNight.jpeg" alt="Bitcoin Night Logo" width="90" height="72" class="d-inline-block align-text-center">
+                    Bitcoin Night
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/quees.html">Que es?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="ediciones.html">Ediciones anteriores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quienes.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="quiero.html">Quiero un BN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
         
     </header>
@@ -81,6 +106,9 @@
             <p>Info footer</p>
         </div>
     </footer>
+
+    <!-- Bootstrap CDN JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 </body>
 </html>
