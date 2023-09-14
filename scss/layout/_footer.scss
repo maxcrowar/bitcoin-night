@@ -1,11 +1,15 @@
+// Variables //
+@import '../utilities/variables';
+
+
 footer {
     border-top: 1px solid gray;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    color: $color-font;
+    font-family: $font-site;
     ul {
         list-style-type: none;
         li a {
-            color: #ffffff;
+            color: $color-font;
             text-decoration: none;
         }
         
