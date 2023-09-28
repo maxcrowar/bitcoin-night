@@ -6,13 +6,16 @@ footer {
     border-top: 1px solid gray;
     color: $color-font;
     font-family: $font-site;
-    ul {
-        list-style-type: none;
-        li a {
-            color: $color-font;
-            text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    .redes {
+        ul {
+            list-style-type: none;
+            li a {
+                color: $color-font;
+                text-decoration: none;
+            }
         }
-        
     }
-    
 }
